@@ -124,8 +124,8 @@ a:hover {
 /* Radio input button */
 
 input[type="radio"]:after {
-  width: 15px;
-  height: 15px;
+  width: 16px;
+  height: 16px;
   border-radius: 15px;
   top: -7px;
   left: -0.8px;
@@ -138,8 +138,8 @@ input[type="radio"]:after {
 }
 
 input[type="radio"]:checked:after {
-  width: 15px;
-  height: 15px;
+  width: 16px;
+  height: 16px;
   border-radius: 15px;
   top: -7px;
   left: -0.8px;
@@ -387,10 +387,10 @@ footer {
   }
   /* content-10 radio button size */
   .content-10.content-select input[type="radio"]:after {
-    top: -4px;
+    top: -3px;
   }
   .content-10.content-select input[type="radio"]:checked:after {
-    top: -4px;
+    top: -3px;
   }
   /* End of content-10 radio button size */
   .title h3 {
