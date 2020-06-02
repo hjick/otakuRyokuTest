@@ -127,7 +127,7 @@ input[type="radio"]:after {
   width: 15px;
   height: 15px;
   border-radius: 15px;
-  top: -8px;
+  top: -7px;
   left: -0.8px;
   position: relative;
   background-color: #fff;
@@ -141,7 +141,7 @@ input[type="radio"]:checked:after {
   width: 15px;
   height: 15px;
   border-radius: 15px;
-  top: -8px;
+  top: -7px;
   left: -0.8px;
   position: relative;
   background-color: #ffc107;
@@ -385,6 +385,14 @@ footer {
   .content-10.content-select {
     font-size: 1rem;
   }
+  /* content-10 radio button size */
+  .content-10.content-select input[type="radio"]:after {
+    top: -4px;
+  }
+  .content-10.content-select input[type="radio"]:checked:after {
+    top: -4px;
+  }
+  /* End of content-10 radio button size */
   .title h3 {
     font-size: 2rem;
   }
