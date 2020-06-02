@@ -1,0 +1,2 @@
+# otakuRyokuTest
+ otaku ryoku test
