@@ -127,14 +127,14 @@ input[type="radio"]:after {
   width: 16px;
   height: 16px;
   border-radius: 15px;
-  top: -6px;
-  left: -1.4px;
+  top: -6.5px;
+  left: -1.2px;
   position: relative;
   background-color: #fff;
   content: "";
   display: inline-block;
   visibility: visible;
-  border: 1.5px solid #757575;
+  border: 1.2px solid #757575;
   box-shadow: 0px 1px 0 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -142,14 +142,14 @@ input[type="radio"]:checked:after {
   width: 16px;
   height: 16px;
   border-radius: 15px;
-  top: -6px;
-  left: -1.4px;
+  top: -6.5px;
+  left: -1.2px;
   position: relative;
   background-color: #ffc107;
   content: "";
   display: inline-block;
   visibility: visible;
-  border: 2px solid #fff;
+  border: 1.2px solid #fff;
   box-shadow: 0px 1px 0 0 rgba(0, 0, 0, 0.2);
 }
 
