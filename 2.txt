@@ -1,0 +1,650 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div class="content content-main">
+        <div class="content-main-text">
+          <h2>確かめてみよう！</h2>
+        </div>
+        <!--  Heart -->
+        <div class="heart-container">
+          <div class="lds-heart">
+            <div></div>
+          </div>
+        </div>
+        <!-- Heart End -->
+        <div class="content-main-select">
+          <button
+            type="button"
+            class="btn btn-start btn-lg"
+            id="btn-main-start"
+          >
+            スタート
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End of Main content -->
+<form id="btsForm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="content content-1 hide">
+          <div class="content-1 content-text">
+            問題1. BTSの公式デビュー年度は？
+          </div>
+          <div class="content-1 content-select">
+            <p>
+              <input
+                type="radio"
+                id="select-1-a"
+                name="select-1"
+                value="select-1-a"
+              /><label for="select-1-a">a. 2012年</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-1-b"
+                name="select-1"
+                value="select-1-b"
+              /><label for="select-1-b">b. 2013年</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-1-c"
+                name="select-1"
+                value="select-1-c"
+              /><label for="select-1-c">c. 2014年</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-1-d"
+                name="select-1"
+                value="select-1-d"
+              /><label for="select-1-d">d. 2015年</label>
+            </p>
+          </div>
+          <div class="container-btn">
+            <button class="btn previous" id="btn-pre-content1" type="button">
+              最初へ
+            </button>
+            <button class="btn next" id="btn-next-content1" type="button">
+              次へ
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="content content-2 hide">
+          <div class="content-2 content-text">
+            問題2. メンバーの中でA型は何人？
+          </div>
+          <div class="content-2 content-select">
+            <p>
+              <input
+                type="radio"
+                id="select-2-a"
+                name="select-2"
+                value="select-2-a"
+              /><label for="select-2-a">a. 1人</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-2-b"
+                name="select-2"
+                value="select-2-b"
+              /><label for="select-2-b">b. 2人</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-2-c"
+                name="select-2"
+                value="select-2-c"
+              /><label for="select-2-c">c. 3人</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-2-d"
+                name="select-2"
+                value="select-2-d"
+              /><label for="select-2-d">d. 4人</label>
+            </p>
+          </div>
+          <div class="container-btn">
+            <button class="btn previous" id="btn-pre-content2" type="button">
+              前へ
+            </button>
+            <button class="btn next" id="btn-next-content2" type="button">
+              次へ
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="content content-3 hide">
+          <div class="content-3 content-text">
+            問題3. 長男は誰？
+          </div>
+          <div class="content-3 content-select">
+            <p>
+              <input
+                type="radio"
+                id="select-3-a"
+                name="select-3"
+                value="select-3-a"
+              /><label for="select-3-a"> a. RM</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-3-b"
+                name="select-3"
+                value="select-3-b"
+              /><label for="select-3-b">
+                b. ユンギ
+              </label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-3-c"
+                name="select-3"
+                value="select-3-c"
+              /><label for="select-3-c"> c. テテ</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-3-d"
+                name="select-3"
+                value="select-3-d"
+              /><label for="select-3-d"> d. ジン</label>
+            </p>
+          </div>
+          <div class="container-btn">
+            <button class="btn previous" id="btn-pre-content3" type="button">
+              前へ
+            </button>
+            <button class="btn next" id="btn-next-content3" type="button">
+              次へ
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="content content-4 hide">
+          <div class="content-4 content-text">
+            問題4. ナムジュンの血液型は？
+          </div>
+          <div class="content-4 content-select">
+            <p>
+              <input
+                type="radio"
+                id="select-4-a"
+                name="select-4"
+                value="select-4-a"
+              /><label for="select-4-a">a. A 型</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-4-b"
+                name="select-4"
+                value="select-4-b"
+              /><label for="select-4-b">b. B 型</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-4-c"
+                name="select-4"
+                value="select-4-c"
+              /><label for="select-4-c">c. O 型</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-4-d"
+                name="select-4"
+                value="select-4-d"
+              /><label for="select-4-d">d. AB 型</label>
+            </p>
+          </div>
+          <div class="container-btn">
+            <button class="btn previous" id="btn-pre-content4" type="button">
+              前へ
+            </button>
+            <button class="btn next" id="btn-next-content4" type="button">
+              次へ
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div
+        class="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 offset"
+      >
+        <div class="content content-5 hide">
+          <!-- 사진문제 -->
+          <div class="content-image">
+            <img src="images/cooky.gif" id="cooky" />
+            <div class="picFrom">
+              (https://www.bt21.com/character JUN 01, 2020)
+            </div>
+          </div>
+          <div class="content-5 content-text">
+            <!-- COOKY 전정국-->
+            問題5. このキャラクターの名前、作ったメンバーは？
+          </div>
+          <div class="content-5 content-select">
+            <p>
+              <input
+                type="radio"
+                id="select-5-a"
+                name="select-5"
+                value="select-5-a"
+              /><label for="select-5-a">a. COOKY - グク</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-5-b"
+                name="select-5"
+                value="select-5-b"
+              /><label for="select-5-b">b. SHOOKY - ユンギ</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-5-c"
+                name="select-5"
+                value="select-5-c"
+              /><label for="select-5-c">c. CHIMMY - ジミン</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-5-d"
+                name="select-5"
+                value="select-5-d"
+              /><label for="select-5-d">d. PINKY - テテ</label>
+            </p>
+          </div>
+          <div class="container-btn">
+            <button class="btn previous" id="btn-pre-content5" type="button">
+              前へ
+            </button>
+            <button class="btn next" id="btn-next-content5" type="button">
+              次へ
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div
+        class="col-lg-6 offset-lg-3 col-md-10 offset-md-1 col-sm-12 col-xs-12"
+      >
+        <div class="content content-6 hide">
+          <div class="content-image">
+            <img src="images/bts/iNu.png" id="iNu" />
+            <div class="picFrom">
+              (https://www.youtube.com/user/ibighit/featured JUN 01, 2020)
+            </div>
+          </div>
+          <div class="content-6 content-text">
+            問題6. この写真は何の曲のMV？
+          </div>
+          <div class="content-6 content-select">
+            <p>
+              <input
+                type="radio"
+                id="select-6-a"
+                name="select-6"
+                value="select-6-a"
+              /><label for="select-6-a">a. Spring</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-6-b"
+                name="select-6"
+                value="select-6-b"
+              /><label for="select-6-b">b. I NEED U</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-6-c"
+                name="select-6"
+                value="select-6-c"
+              /><label for="select-6-c">c. Euphoria</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-6-d"
+                name="select-6"
+                value="select-6-d"
+              /><label for="select-6-d">d. On</label>
+            </p>
+          </div>
+          <div class="container-btn">
+            <button class="btn previous" id="btn-pre-content6" type="button">
+              前へ
+            </button>
+            <button class="btn next" id="btn-next-content6" type="button">
+              次へ
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div
+        class="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12"
+      >
+        <div class="content content-7 hide">
+          <div class="content-image">
+            <img src="images/bts/wings.jpg" id="persona" />
+            <div class="picFrom">
+              (https://ibighit.com/bts/kor/ JUN 01, 2020)
+            </div>
+          </div>
+          <div class="content-7 content-text">
+            問題7.「Reflection」は、このアルバムの中で何番トラック？<!--오늘날짜-->
+          </div>
+          <div class="content-7 content-select">
+            <p>
+              <input
+                type="radio"
+                id="select-7-a"
+                name="select-7"
+                value="select-7-a"
+              /><label for="select-7-a">a. 4 track</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-7-b"
+                name="select-7"
+                value="select-7-b"
+              /><label for="select-7-b">b. 5 track</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-7-c"
+                name="select-7"
+                value="select-7-c"
+              /><label for="select-7-c">c. 7 track</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-7-d"
+                name="select-7"
+                value="select-7-d"
+              /><label for="select-7-d">d. 8 track</label>
+            </p>
+          </div>
+          <div class="container-btn">
+            <button class="btn previous" id="btn-pre-content7" type="button">
+              前へ
+            </button>
+            <button class="btn next" id="btn-next-content7" type="button">
+              次へ
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="content content-8 hide">
+          <div class="content-image">
+            <img src="images/bts/tetejiminHand.jpg" id="handPic" />
+          </div>
+          <div class="content-8 content-text">
+            問題8. この手は誰の手？<small>(左ー右)</small>
+          </div>
+          <div class="content-8 content-select">
+            <p>
+              <input
+                type="radio"
+                id="select-8-a"
+                name="select-8"
+                value="select-8-a"
+              /><label for="select-8-a">a. ジンーグク</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-8-b"
+                name="select-8"
+                value="select-8-b"
+              /><label for="select-8-b">b. ホビーナム</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-8-c"
+                name="select-8"
+                value="select-8-c"
+              /><label for="select-8-c">c. テテージミン</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-8-d"
+                name="select-8"
+                value="select-8-d"
+              /><label for="select-8-d">d. ユンギーグク</label>
+            </p>
+          </div>
+          <div class="container-btn">
+            <button class="btn previous" id="btn-pre-content8" type="button">
+              前へ
+            </button>
+            <button class="btn next" id="btn-next-content8" type="button">
+              次へ
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="content content-9 hide">
+          <div class="content-image">
+            <img src="images/2.jpg" id="eyePic" />
+          </div>
+          <div class="content-9 content-text">
+            問題9. この写真は誰の目？
+          </div>
+          <div class="content-9 content-select">
+            <p>
+              <input
+                type="radio"
+                id="select-9-a"
+                name="select-9"
+                value="select-9-a"
+              /><label for="select-9-a">a. テテ</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-9-b"
+                name="select-9"
+                value="select-9-b"
+              /><label for="select-9-b">b. ジン</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-9-c"
+                name="select-9"
+                value="select-9-c"
+              /><label for="select-9-c">c. グク</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-9-d"
+                name="select-9"
+                value="select-9-d"
+              /><label for="select-9-d">d. ホビ</label>
+            </p>
+          </div>
+          <div class="container-btn">
+            <button class="btn previous" id="btn-pre-content9" type="button">
+              前へ
+            </button>
+            <button class="btn next" id="btn-next-content9" type="button">
+              次へ
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="content content-10 hide">
+          <div class="content-image">
+            <img src="images/bts/missRight.jpg" id="missRight" />
+          </div>
+          <div class="content-10 content-text">
+            問題10. MISS RIGHT (Japanese
+            Ver.)　の歌詞中、「どんな時でも（　　　　）晴れた空の下」　の（　）に当てはまる歌詞は？
+          </div>
+          <div class="content-10 content-select">
+            <p>
+              <input
+                type="radio"
+                id="select-10-a"
+                name="select-10"
+                value="select-10-a"
+              /><label for="select-10-a">a. まるでドラマの中の人の様な</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-10-b"
+                name="select-10"
+                value="select-10-b"
+              /><label for="select-10-b">b. まるで小説の中の人の様な</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-10-c"
+                name="select-10"
+                value="select-10-c"
+              /><label for="select-10-c">c. まるで映画の中のシーンの様な</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="select-10-d"
+                name="select-10"
+                value="select-10-d"
+              /><label for="select-10-d">d. まるで夢の中のシーンの様な</label>
+            </p>
+
+            <div class="container-btn">
+              <button class="btn previous" id="btn-pre-content10" type="button">
+                前へ
+              </button>
+              <button type="submit" class="btn next" id="btn-next-content10">
+                終了
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+<!-- Start of Loading Spinner -->
+<div class="loading-page hide">
+  <div class="loading-page-text">採点してるよ！</div>
+  <div class="loading-page-spinner">
+    <div class="lds-ring">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</div>
+<!-- End of Loading Spinner -->
+<!-- Start of SCORE PAGE -->
+<div class="container content-score hide">
+  <div class="row text-center">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div class="score-container">
+        <div class="score-text">
+          <span>あなたのオタク力は！</span>
+        </div>
+        <div class="heart-container" style="margin: 0;">
+          <div class="lds-heart">
+            <div></div>
+          </div>
+        </div>
+        <div id="scoreText"></div>
+        <div class="score-value">
+          <span>100<small>点</small></span>
+        </div>
+      </div>
+      <div style="font-weight: 600;">結果を友達と共有してみよう！</div>
+      <div class="container-btn final">
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <div class="addthis_inline_share_toolbox"></div>
+        <button class="btn reset" type="button" id="btn-reset">
+          もう一度！
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
