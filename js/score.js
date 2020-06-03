@@ -19,19 +19,28 @@ const correctSelect9 = document.getElementById("select-9-b");
 const correctSelect10 = document.getElementById("select-10-c");
 // DISQUS
 const disqusContainer = document.getElementById("disqus-container");
-
+const resetBtn = document.getElementById("btn-reset");
 const scoreText = document.getElementById("scoreText");
 
 let OTAKU_SCORE = 0;
+const FINALSCORE_LS = "fianlScore";
 
-function paintScoreText(finalScore) {
-  if (finalScore === 100) {
+function deleteScore() {
+  localStorage.removeItem(FINALSCORE_LS);
+}
+
+function saveScore(finalScore) {
+  localStorage.setItem(FINALSCORE_LS, finalScore);
+}
+
+function paintScoreText(score) {
+  if (score === 100) {
     scoreText.innerText = "うおおっ！出た、最強のオタク！！";
-  } else if (finalScore >= 78) {
+  } else if (score >= 78) {
     scoreText.innerText = "おー結構やるじゃん！";
-  } else if (finalScore >= 50) {
+  } else if (score >= 50) {
     scoreText.innerText = "惜しいな。。もっと頑張ろう！";
-  } else if (finalScore > 40) {
+  } else if (score > 40) {
     scoreText.innerText = "微妙。。";
   } else {
     scoreText.innerText = "え、、なんも知らないじゃん～勉強しよう！";
@@ -39,16 +48,27 @@ function paintScoreText(finalScore) {
 }
 
 function paintScore(finalScore) {
-  setTimeout(function () {
-    contentScore.className = "container content-score show";
-    scoreValue.innerHTML = `<span>${finalScore}<small>点</small></span>`;
-    loadingPage.className = "loading-page hide";
-    disqusContainer.className = "container";
-    paintScoreText(finalScore);
-  }, 3000);
+  scoreValue.innerHTML = `<span>${finalScore}<small>点</small></span>`;
+  paintScoreText(finalScore);
 }
 
-function countScore(e) {
+function paintScoreContainer(finalScore) {
+  if (localStorage.getItem(FINALSCORE_LS) !== null) {
+    contentMain.className = "content content-main hide";
+    contentScore.className = "container content-score";
+    paintScore(finalScore);
+  } else {
+    setTimeout(function () {
+      loadingPage.className = "loading-page hide";
+      contentScore.className = "container content-score show";
+      disqusContainer.className = "container";
+      paintScore(finalScore);
+      saveScore(OTAKU_SCORE);
+    }, 3000);
+  }
+}
+
+function handleSubmit(e) {
   e.preventDefault();
 
   if (correctSelect1.checked) {
@@ -91,14 +111,21 @@ function countScore(e) {
     OTAKU_SCORE += 13;
   }
 
-  paintScore(OTAKU_SCORE);
+  paintScoreContainer(OTAKU_SCORE);
 }
 
-const resetBtn = document.getElementById("btn-reset");
+function loadScore() {
+  const currentScore = localStorage.getItem(FINALSCORE_LS);
+  if (currentScore !== null) {
+    paintScoreContainer(currentScore);
+  }
+}
 
 function init() {
-  btsForm.addEventListener("submit", countScore);
+  loadScore();
+  btsForm.addEventListener("submit", handleSubmit);
   resetBtn.addEventListener("click", function () {
+    deleteScore();
     window.location.reload(true);
   });
 }
