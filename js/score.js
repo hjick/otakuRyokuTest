@@ -56,11 +56,12 @@ function paintScoreContainer(finalScore) {
   if (localStorage.getItem(FINALSCORE_LS) !== null) {
     contentMain.className = "content content-main hide";
     contentScore.className = "container content-score";
+    disqusContainer.className = "container";
     paintScore(finalScore);
   } else {
     setTimeout(function () {
       loadingPage.className = "loading-page hide";
-      contentScore.className = "container content-score show";
+      contentScore.className = "container content-score";
       disqusContainer.className = "container";
       paintScore(finalScore);
       saveScore(OTAKU_SCORE);
